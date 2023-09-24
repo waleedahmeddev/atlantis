@@ -26,5 +26,4 @@ resource "aws_security_group" "sg" {
   tags = {
     "Name" = "all-ports-tf"
   }
-
 }
