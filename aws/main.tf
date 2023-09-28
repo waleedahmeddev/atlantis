@@ -29,9 +29,9 @@ resource "aws_security_group" "sg" {
 }
 
 
-resource "aws_instance" "vm" {
-  ami           = "ami-0df7a207adb9748c7"
-  instance_type = "t2.nano"
+# resource "aws_instance" "vm" {
+#   ami           = "ami-0df7a207adb9748c7"
+#   instance_type = "t2.nano"
 
-  security_groups = [aws_security_group.sg.id]
-}
+#   security_groups = [aws_security_group.sg.id]
+# }
