@@ -31,7 +31,7 @@ resource "aws_security_group" "sg" {
 
 resource "aws_instance" "foo" {
   ami           = "ami-0df7a207adb9748c7"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
 
   security_groups = [aws_security_group.sg.id]
 }
