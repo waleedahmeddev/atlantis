@@ -29,7 +29,7 @@ resource "aws_security_group" "sg" {
 }
 
 
-resource "aws_instance" "foo" {
+resource "aws_instance" "vm" {
   ami           = "ami-0df7a207adb9748c7"
   instance_type = "t2.nano"
 
